@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: online-exam
+    env: java
+    buildCommand: mvn clean install
+    startCommand: java -jar target/*.jar
